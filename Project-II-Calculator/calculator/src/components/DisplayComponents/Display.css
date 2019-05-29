@@ -1,9 +1,47 @@
-.container{
+.container {
     width: 400px;
     margin: 0 auto;
     border: 2px solid grey;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.container div {
-    border: 2px solid grey;
+.result {
+    text-align: right;
+    padding-right:20px;
+    background-color:black;
+    color:white;
+}
+
+.buttons {
+    display: flex;
+}
+
+.left-col {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+
+.left-col div:first-child {
+    text-align: center;
+}
+
+.left-col .digits {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left-col .digits div p {
+    width: 100px;
+    text-align: center;
+}
+
+.right-col {
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
