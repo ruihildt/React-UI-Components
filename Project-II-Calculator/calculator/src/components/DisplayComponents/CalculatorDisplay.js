@@ -13,7 +13,7 @@ function CalculatorDisplay() {
     return ( 
         <div className="container">
             <div className="result">
-                <p>Result Placeholder</p>
+                <p>0</p>
             </div>
             <div className="buttons">
                 <div className="left-col">
