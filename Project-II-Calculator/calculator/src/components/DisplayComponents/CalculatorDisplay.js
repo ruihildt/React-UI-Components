@@ -6,7 +6,7 @@ import NumberButton from '../ButtonComponents/NumberButton';
 
 
 function CalculatorDisplay() {
-    const actions = ['/', '*', '-', '+', '=', 'clear'];
+    const actions = ['÷', '×', '−', '+', '=', 'clear'];
     const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 
